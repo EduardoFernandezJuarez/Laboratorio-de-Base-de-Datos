@@ -22,5 +22,5 @@ CREATE TABLE tiene_un (
 -- 3. ALTER a Paciente para registrar la fecha de alta
 
 ALTER TABLE Paciente
-    ADD COLUMN fecha_alta DATE NOT NULL DEFAULT CURRENT_DATE;
+    ADD COLUMN fecha_alta DATE NOT NULL DEFAULT (CURRENT_DATE - INTERVAL '30 days');
 
