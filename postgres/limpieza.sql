@@ -1,2 +1,0 @@
-DROP SCHEMA IF EXISTS esquema_grupo3 CASCADE;
-DROP SCHEMA IF EXISTS esquema_grupo3_alt CASCADE;
