@@ -1,0 +1,85 @@
+USE homecare;
+
+SET FOREIGN_KEY_CHECKS = 0;
+
+-- Tablas de la ampliacion
+DROP TABLE IF EXISTS tiene_un_esquema_grupo3;
+DROP TABLE IF EXISTS tipo_producto_esquema_grupo3;
+DROP TABLE IF EXISTS tiene_un_esquema_grupo3_alt;
+DROP TABLE IF EXISTS tipo_producto_esquema_grupo3_alt;
+
+-- Esquema grupo3
+DROP TABLE IF EXISTS almacena_esquema_grupo3;
+DROP TABLE IF EXISTS recibe_esquema_grupo3;
+DROP TABLE IF EXISTS contiene_esquema_grupo3;
+DROP TABLE IF EXISTS Suministro_esquema_grupo3;
+DROP TABLE IF EXISTS suministra_esquema_grupo3;
+DROP TABLE IF EXISTS Farmacia_esquema_grupo3;
+DROP TABLE IF EXISTS necesita_esquema_grupo3;
+DROP TABLE IF EXISTS Kit_esquema_grupo3;
+DROP TABLE IF EXISTS comprende_esquema_grupo3;
+DROP TABLE IF EXISTS Medicamento_esquema_grupo3;
+DROP TABLE IF EXISTS denota_esquema_grupo3;
+DROP TABLE IF EXISTS Lesion_esquema_grupo3;
+DROP TABLE IF EXISTS diagnostica_esquema_grupo3;
+DROP TABLE IF EXISTS aplica_esquema_grupo3;
+DROP TABLE IF EXISTS Indicacion_esquema_grupo3;
+DROP TABLE IF EXISTS Evolucion_esquema_grupo3;
+DROP TABLE IF EXISTS antecedentes_medicos_esquema_grupo3;
+DROP TABLE IF EXISTS vacunas_esquema_grupo3;
+DROP TABLE IF EXISTS alergias_esquema_grupo3;
+DROP TABLE IF EXISTS Historia_clinica_esquema_grupo3;
+DROP TABLE IF EXISTS posee_esquema_grupo3;
+DROP TABLE IF EXISTS Obra_social_esquema_grupo3;
+DROP TABLE IF EXISTS Visita_esquema_grupo3;
+DROP TABLE IF EXISTS Turno_esquema_grupo3;
+DROP TABLE IF EXISTS atiende_en_esquema_grupo3;
+DROP TABLE IF EXISTS Coordenada_esquema_grupo3;
+DROP TABLE IF EXISTS Zona_esquema_grupo3;
+DROP TABLE IF EXISTS Contacto_emergencia_esquema_grupo3;
+DROP TABLE IF EXISTS Paciente_esquema_grupo3;
+DROP TABLE IF EXISTS especialidades_esquema_grupo3;
+DROP TABLE IF EXISTS Medico_esquema_grupo3;
+DROP TABLE IF EXISTS Enfermero_esquema_grupo3;
+DROP TABLE IF EXISTS Kinesiologo_esquema_grupo3;
+DROP TABLE IF EXISTS Psicologo_esquema_grupo3;
+DROP TABLE IF EXISTS Nutricionista_esquema_grupo3;
+DROP TABLE IF EXISTS Profesional_esquema_grupo3;
+
+-- Esquema grupo3_alt
+DROP TABLE IF EXISTS almacena_esquema_grupo3_alt;
+DROP TABLE IF EXISTS recibe_esquema_grupo3_alt;
+DROP TABLE IF EXISTS contiene_esquema_grupo3_alt;
+DROP TABLE IF EXISTS Suministro_esquema_grupo3_alt;
+DROP TABLE IF EXISTS suministra_esquema_grupo3_alt;
+DROP TABLE IF EXISTS Farmacia_esquema_grupo3_alt;
+DROP TABLE IF EXISTS necesita_esquema_grupo3_alt;
+DROP TABLE IF EXISTS Kit_esquema_grupo3_alt;
+DROP TABLE IF EXISTS comprende_esquema_grupo3_alt;
+DROP TABLE IF EXISTS Medicamento_esquema_grupo3_alt;
+DROP TABLE IF EXISTS denota_esquema_grupo3_alt;
+DROP TABLE IF EXISTS Lesion_esquema_grupo3_alt;
+DROP TABLE IF EXISTS diagnostica_esquema_grupo3_alt;
+DROP TABLE IF EXISTS aplica_esquema_grupo3_alt;
+DROP TABLE IF EXISTS Indicacion_esquema_grupo3_alt;
+DROP TABLE IF EXISTS Evolucion_esquema_grupo3_alt;
+DROP TABLE IF EXISTS antecedentes_medicos_esquema_grupo3_alt;
+DROP TABLE IF EXISTS vacunas_esquema_grupo3_alt;
+DROP TABLE IF EXISTS alergias_esquema_grupo3_alt;
+DROP TABLE IF EXISTS Historia_clinica_esquema_grupo3_alt;
+DROP TABLE IF EXISTS posee_esquema_grupo3_alt;
+DROP TABLE IF EXISTS Obra_social_esquema_grupo3_alt;
+DROP TABLE IF EXISTS Visita_esquema_grupo3_alt;
+DROP TABLE IF EXISTS Turno_esquema_grupo3_alt;
+DROP TABLE IF EXISTS atiende_en_esquema_grupo3_alt;
+DROP TABLE IF EXISTS Coordenada_esquema_grupo3_alt;
+DROP TABLE IF EXISTS Zona_esquema_grupo3_alt;
+DROP TABLE IF EXISTS Contacto_emergencia_esquema_grupo3_alt;
+DROP TABLE IF EXISTS Paciente_esquema_grupo3_alt;
+DROP TABLE IF EXISTS especialidades_esquema_grupo3_alt;
+DROP TABLE IF EXISTS Medico_esquema_grupo3_alt;
+DROP TABLE IF EXISTS Enfermero_esquema_grupo3_alt;
+DROP TABLE IF EXISTS Kinesiologo_esquema_grupo3_alt;
+DROP TABLE IF EXISTS Psicologo_esquema_grupo3_alt;
+DROP TABLE IF EXISTS Nutricionista_esquema_grupo3_alt;
+DROP TABLE IF EXISTS Profesional_esquema_grupo3_alt;
