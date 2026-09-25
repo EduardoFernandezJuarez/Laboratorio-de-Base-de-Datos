@@ -1,5 +1,6 @@
 SET search_path TO esquema_grupo3;
 
+-- POSTGRESQL
 -- Procedimiento que actualiza el estado de las visitas 
 -- si hora-fin es distinta a null y su estado es programado, se modifica a realizado
 CREATE OR REPLACE PROCEDURE actualizar_estado_visitas()
