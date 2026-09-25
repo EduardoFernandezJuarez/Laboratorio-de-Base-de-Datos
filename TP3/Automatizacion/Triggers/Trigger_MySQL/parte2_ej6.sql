@@ -1,5 +1,6 @@
 DELIMITER $$
 
+-- Afirmación que garantiza que un enfermero NO pueda tener más de 3 kits 
 CREATE TRIGGER validar_lim_kits
 BEFORE INSERT ON recibe_esquema_grupo3
 FOR EACH ROW
