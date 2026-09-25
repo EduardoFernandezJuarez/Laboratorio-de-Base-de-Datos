@@ -1,5 +1,6 @@
 SET search_path TO esquema_grupo3; 
 
+-- Triggers para la escritura de operaciones en planilla LOG
 CREATE OR REPLACE FUNCTION auditRecibe()
 RETURNS TRIGGER AS $$
 BEGIN
