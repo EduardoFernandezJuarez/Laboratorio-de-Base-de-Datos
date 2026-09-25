@@ -1,4 +1,4 @@
-
+-- Trigger utilizado para actualizar el valor de cantidadVisitasAnio de un Paciente, al insertarse una nueva Visita en el sistema asociada a este. 
 CREATE TRIGGER agregarVisitaPaciente
 AFTER INSERT ON Visita_esquema_grupo3
 FOR EACH ROW
