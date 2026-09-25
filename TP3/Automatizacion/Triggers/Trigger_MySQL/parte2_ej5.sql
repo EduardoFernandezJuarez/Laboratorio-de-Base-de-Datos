@@ -1,5 +1,6 @@
 DELIMITER $$
 
+-- Triggers para la escritura de operaciones en planilla LOG
 CREATE PROCEDURE insertar_recibe(IN p_legajo VARCHAR(20), IN p_id_kit INT)
 BEGIN
 INSERT INTO recibe_esquema_grupo3 (legajo,fecha,id_kit)
