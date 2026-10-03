@@ -1,0 +1,8 @@
+SET search_path TO esquema_grupo3;
+CREATE OR REPLACE FUNCTION diferencia_meses(fecha1 DATE, fecha2 DATE) 
+RETURNS INTEGER 
+AS $$
+BEGIN
+RETURN (EXTRACT(YEAR FROM fecha2)::INTEGER - EXTRACT(YEAR FROM fecha1)::INTEGER) * 12 + (EXTRACT (MONTH FROM fecha2)::INTEGER - EXTRACT (MONTH FROM fecha1)::INTEGER); 
+END; 
+$$ LANGUAGE 'plpgsql'; 
