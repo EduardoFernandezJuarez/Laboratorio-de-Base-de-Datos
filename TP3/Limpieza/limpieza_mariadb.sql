@@ -1,6 +1,6 @@
 -- 1. Triggers
 DROP TRIGGER IF EXISTS agregarVisitaPaciente;
-DROP TRIGGER IF EXISTS habilitarEliminarKit;
+DROP TRIGGER IF EXISTS habilitarBorradoKit;
 DROP TRIGGER IF EXISTS validar_lim_kits_insert;
 DROP TRIGGER IF EXISTS validar_lim_kits_update;
 
