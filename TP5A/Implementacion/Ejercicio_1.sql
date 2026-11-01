@@ -135,3 +135,9 @@ FROM generate_series(1, 50) AS g
 CROSS JOIN LATERAL (SELECT nro_doc, tipo_doc, sexo FROM Paciente ORDER BY random() LIMIT 1) p
 CROSS JOIN LATERAL (SELECT legajo FROM Profesional ORDER BY random() LIMIT 1) pr;
 
+-- Inserciones
+INSERT INTO esquema_grupo3.paciente (nro_doc, tipo_doc, sexo, nombre, apellido, nro_afiliado, fecha_nacimiento, fecha_afiliado, direccion_calle, direccion_nro, telefono, localidad, edad) VALUES
+('70000001','DNI','F','Rosa','Benitez','AF-3001','1970-05-10','2018-01-01','Sarmiento','55','2994400001','General Roca',56),
+('70000002','DNI','M','Tomas','Molina','AF-3002','1985-09-21','2020-03-15','Belgrano','120','2994400002','Neuquen',41),
+('70000003','DNI','X','Dana','Ortiz','AF-3003','1998-12-02','2022-06-10','Alberdi','200','2994400003','Allen',27);
+"
